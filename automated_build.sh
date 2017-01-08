@@ -14,6 +14,8 @@ cd $CWD
 # So we substitute the variables in _config.yml here, using sed.
 sed -i "s/ENV_CONTENTFUL_SPACE_ID/$ENV_CONTENTFUL_SPACE_ID/" _config.yml
 sed -i "s/ENV_CONTENTFUL_ACCESS_TOKEN/$ENV_CONTENTFUL_ACCESS_TOKEN/" _config.yml
+echo "After editing:"
+cat _config.yml
 bundle exec jekyll contentful
 bundle exec jekyll build
 
