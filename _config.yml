@@ -37,5 +37,5 @@ exclude:
 contentful:
  spaces:
    - alstes:
-       space: ENV_CONTENTFUL_SPACE_ID # Did not get env variables to work here with CircleCI. So using sed in the bash script.
-       access_token: ENV_CONTENTFUL_ACCESS_TOKEN
+       space: iyyqs6qr8m5q # Did not get env variables to work here with CircleCI. So using sed in the bash script.
+       access_token: af68364ec81eeabb2e59e332cd07bdcfef55ec271c7506551c966cdc96e3c93f
